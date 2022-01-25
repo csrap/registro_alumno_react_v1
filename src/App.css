@@ -36,3 +36,243 @@
     transform: rotate(360deg);
   }
 }
+
+table.table{
+background-color: #fffdfd;
+border-radius: 10px;
+
+}
+
+div#root {
+  background-color: #F8F8F9; 
+}
+
+.th-format {
+  color:gainsboro; 
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.th-details {
+
+  font-family: 'Raleway', sans-serif;
+}
+
+.Alumnos-search {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  padding: 10px;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+input#exampleEmail {
+  background-color: rgb(230, 224, 224);
+/* width: 50%; */
+margin-right: 50px;  
+
+
+}
+
+button.btn.btn-primary {
+  justify-content: flex-end;
+}
+
+.layout-title {
+  align-items: center;
+border-bottom-width: 1px;
+display: flex;
+height: 52px;
+align-content: stretch;
+color: #121625; 
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+font-family: 'Raleway', sans-serif;
+}
+
+span.Alumno {
+  color:#32D4A4; 
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+margin-left: 5px;
+font-family: 'Raleway', sans-serif;
+}
+button.btn-add.btn.btn-primary {
+  background-color: white;
+  color:black; 
+  font-weight:600;
+  border-color:white; 
+  margin-left: 100px;
+  margin-right: -30px;
+  
+}
+
+label.col-sm-2.col-form-label {
+  margin-right: -60px;
+  margin-left: -40px;
+}
+
+.UserName-header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between; 
+}
+
+select#exampleSelect {
+  background-color: white;
+  margin-top: 10px;
+}
+
+.filters-layout {
+  background-color: white;
+  padding: 20px;
+  width: 60%;
+}
+
+
+/* th button  */
+
+.th-button {
+  background-color: white;
+  border-color: white; 
+  border-width: 0px;
+  color: rgb(230, 224, 224); 
+}
+
+.modal-dialog.modal-format-card{
+  max-width: 1138px;
+  max-height: 528px;
+}
+
+/* .modal-content-format {
+  background: rgb(255, 255, 255);
+  display: grid;
+grid-template-columns: repeat(2, 2fr);
+grid-template-rows: 0.5fr;
+grid-column-gap: 26px;
+grid-row-gap: 0px;
+
+} */
+
+.div1 { 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: stretch;
+
+}
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+
+.form-control-v1 {
+  display: block;
+  width: 50%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+
+.form-control-name {
+  width: 80%;
+  padding: .375rem .75rem ;
+  font-size: 1rem;
+  font-weight: lighter;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #F8F8F9;
+  ;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin: 10px 10px 10px 10px; 
+}
+
+.name-surname {
+  margin-right: 25px;
+}
+
+.labels-format {
+  background-color: #32D4A4;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: 300;
+  Width: 82px;
+  Padding: 4px; 
+  height: 22px;
+  font-size: 12px;
+
+}
+
+a.ui.label {
+  display: flex;
+  background-color: #32D4A4;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: 300;
+  Width: 82px;
+  Padding: 4px;
+  height: 22px;
+  font-size: 12px;
+  text-decoration: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: stretch;
+  margin-bottom: 5px;
+}
+
+.img-perfil {
+  display: grid;
+  grid-template-columns: 150px 300px;
+  grid-template-rows: 120px;
+  grid-gap: 0px 0px;
+  gap: 0px 0px;
+  grid-template-areas: ". .";
+  justify-content: space-evenly;
+  align-content: stretch;
+  align-items: center;
+
+}
+
+.img-perfil-a {
+  /* background-color: black; */
+  height:70px;
+  width: 90px;
+  background-image: url(./img/cv.jpg);
+  background-repeat: no-repeat;
+  /* background-position: 60%; */
+  border-radius: 60%;
+  background-size: 100% auto;
+}
+
+img, svg {
+  /* vertical-align: middle; */
+  /* background-color: blue; */
+  /* width: 90px; */
+  /* height: 90px; */
+}
